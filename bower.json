@@ -1,0 +1,23 @@
+{
+  "name": "detect",
+  "version": "0.0.1",
+  "homepage": "https://github.com/julien/detect",
+  "authors": [
+    "Julien Castelain <jcastelain@gmail.com>"
+  ],
+  "description": "Minimal browser feature detection",
+  "main": "src/detect.min.js",
+  "keywords": [
+    "feature",
+    "detection",
+    "minimal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "detect",
+  "version": "0.0.1",
+  "description": "Minimal browser feature detection",
+  "main": "src/detect.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/julien/detect.git"
+  },
+  "keywords": [
+    "feature",
+    "detection",
+    "minimal"
+  ],
+  "author": "Julien Castelain <jcastelain@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julien/detect/issues"
+  },
+  "homepage": "https://github.com/julien/detect",
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "uglify-js": "*"
+  },
+  "scripts": {
+    "install": "node node_modules/uglify-js/bin/uglifyjs src/detect.js -o src/detect.min.js -m"
+  }
+}
